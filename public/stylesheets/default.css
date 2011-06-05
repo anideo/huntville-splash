@@ -1,0 +1,40 @@
+/* @override http://localhost:9292/stylesheets/default.css */
+html{color:#000;background:#D7ECF3 url('/images/background.png') center 0 no-repeat;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+li{list-style:none}
+caption,th{text-align:left}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+
+body {margin:auto;width:750px;}
+
+q:before,q:after{content:""}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+legend{color:inherit}
+a{text-decoration:none;outline:none}
+.clear{clear:both}
+.nowrap{white-space:nowrap}
+a{color:#2d81c5}
+a:focus{-webkit-outline-radius:6px;-moz-outline-radius:6px;outline-radius:6px;outline:2px solid rgba(104,189,244,0.3);outline-offset:2px}
+a:active{color:#000}
+a:active:focus{outline:none}
+a.amount{font-weight:bold}
+body,table,input,textarea,select,button{font:normal 14px helvetica,arial,sans-serif;line-height:20px}
+em{font-style:italic}
+strong{font-weight:bold}
+small{font-size:12px;line-height:inherit}
+
+#incharge {margin:60px 5px 5px;color:#331;text-shadow:2px 2px 1px #eef;font:bold 2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
+
+#signup {margin:0 auto;}
+form #signup input[type="text"] {font-size:2em;color:#999;padding:10px;-webkit-border-radius:5px;border:5px solid #8d5d32;width:590px;margin:0 0 10px;-webkit-box-shadow:inset 2px 2px 3px rgba(0,0,0,0.3);}
+form #signup input[type="submit"] {border:3px solid #4d1d02;-webkit-border-radius:5px;font-size:2em;background:#835026;color:#fff;text-shadow:0 -1px 1px #330011;font-weight:bold;line-height:2em;padding:0 20px;height:61px;}
+
+form #signup input[type="submit"]:hover {background:#734026;cursor:pointer;text-shadow:0 1px 1px #330011;}
