@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-  $("#mce-EMAIL").focus(function() {
-    this.value = "";
+  $('appbadge').click(function() {
+    alert('Coming Soon! Leave your email at the top of the page for giveaways!');
   });
 
 });
