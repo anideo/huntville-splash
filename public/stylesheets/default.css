@@ -1,4 +1,4 @@
-html{color:#333;background:#c6b9ac}
+html{color:#333;background:#c6b9ac;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
 table{border-collapse:collapse;border-spacing:0}
 fieldset,img{border:0}
@@ -8,7 +8,8 @@ caption,th{text-align:left}
 
 h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
 
-body {margin:auto;width:972px;overflow:none;}
+body {margin:auto;overflow:none;}
+#main {width:972px;margin:0 auto;}
 
 q:before,q:after{content:""}
 abbr,acronym{border:0;font-variant:normal}
@@ -33,14 +34,49 @@ small{font-size:12px;line-height:inherit}
 #signup {margin:0 auto;}
 #signup-header img {float: left; width: 80px;}
 
-#storyboard {border:5px solid #8d5d32;-webkit-border-radius:5px;margin-top:20px;-webkit-box-shadow: 0 0 10px 2px rgba(50,45,40, 0.3);}
+#storyboard img {
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -border-radius:5px;
+  -webkit-box-shadow: 0 2px 3px 1px rgba(0,0,0, 0.3);
+  -moz-box-shadow: 0 2px 3px 1px rgba(0,0,0, 0.3);
+  -box-shadow: 0 2px 3px 1px rgba(0,0,0, 0.3);
+   border: 5px solid #8d5d32;
+}
 
-#incharge {margin:30px 5px 5px;color:#332;text-shadow:1px 1px 1px #d6c9bc;font:bold 2.3em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
+#incharge {margin:30px 5px 5px;color:#332;text-shadow:1px 1px 1px #d6c9bc;font:bold 2.15em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
 
 form {margin-left: 100px;}
-form #signup input[type="text"] {font-size:2em;color:#999;padding:10px;-webkit-border-radius:5px;border:5px solid #8d5d32;width:650px;margin:0 0 10px;-webkit-box-shadow:inset 2px 2px 3px rgba(0,0,0,0.3);}
+form #signup input[type="text"] {
+  font-size:2em;
+  color:#999;
+  padding:10px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -border-radius:5px;
+  border:5px solid #8d5d32;
+  width:650px;
+  margin:0 0 10px;
+  -webkit-box-shadow:inset 2px 2px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:inset 2px 2px 3px rgba(0,0,0,0.3);
+  -box-shadow:inset 2px 2px 3px rgba(0,0,0,0.3);
+}
+
 form #signup input[type="text"]:focus {color:#111;}
-form #signup input[type="submit"] {border:3px solid #4d1d02;-webkit-border-radius:5px;font-size:2em;background:#835026;color:#fff;text-shadow:0 -1px 1px #330011;font-weight:bold;line-height:2em;padding:0 13px;height:61px;}
+form #signup input[type="submit"] {
+  border:3px solid #4d1d02;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -border-radius:5px;
+  font-size:2em;
+  background:#835026;
+  color:#fff;
+  text-shadow:0 -1px 1px #330011;
+  font-weight:bold;
+  line-height:2em;
+  padding:0 13px;
+  height:61px;
+}
 
 form #signup input[type="submit"]:hover {background:#734026;cursor:pointer;text-shadow:0 1px 1px #330011;}
 
@@ -50,3 +86,24 @@ footer {margin: 15px 0 0 3px;text-shadow: 1px 1px 1px #dcccc3;font-size: 1.2em;l
 address {display:block; padding-top: 7px;}
 
 a#appbadge {float: right;position: relative; right: -3px;}
+
+
+
+/* nivo slider */
+
+.nivoSlider {
+    position:relative;
+    width:972px; /* Change this to your images width */
+    height:650px; /* Change this to your images height */
+    background:url(/images/loading.gif) no-repeat 50% 50%;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}
