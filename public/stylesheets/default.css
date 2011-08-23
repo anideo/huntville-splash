@@ -22,6 +22,7 @@ a{text-decoration:none;outline:none}
 .clear{clear:both}
 .nowrap{white-space:nowrap}
 a{color:#6d3d22}
+a:hover{text-decoration:underline;}
 a:focus{-webkit-outline-radius:6px;-moz-outline-radius:6px;outline-radius:6px;outline:2px solid rgba(104,189,244,0.3);outline-offset:2px}
 a:active{color:#000}
 a:active:focus{outline:none}
@@ -34,20 +35,10 @@ small{font-size:12px;line-height:inherit}
 #signup {margin:0 auto;}
 #signup-header img {float: left; width: 80px;}
 
-#storyboard img {
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  -border-radius:5px;
-  -webkit-box-shadow: 0 2px 3px 1px rgba(0,0,0, 0.3);
-  -moz-box-shadow: 0 2px 3px 1px rgba(0,0,0, 0.3);
-  -box-shadow: 0 2px 3px 1px rgba(0,0,0, 0.3);
-   border: 5px solid #8d5d32;
-}
-
-#incharge {margin:30px 5px 5px;color:#332;text-shadow:1px 1px 1px #d6c9bc;font:bold 2.15em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
+#incharge {margin:20px 5px 5px;color:#332;text-shadow:1px 1px 1px #d6c9bc;font:bold 2.15em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
 
 form {margin-left: 100px;}
-form #signup input[type="text"] {
+form #signup input[type="email"] {
   font-size:2em;
   color:#999;
   padding:10px;
@@ -62,7 +53,7 @@ form #signup input[type="text"] {
   -box-shadow:inset 2px 2px 3px rgba(0,0,0,0.3);
 }
 
-form #signup input[type="text"]:focus {color:#111;}
+form #signup input[type="email"]:focus {color:#111;}
 form #signup input[type="submit"] {
   border:3px solid #4d1d02;
   -webkit-border-radius:5px;
@@ -79,23 +70,28 @@ form #signup input[type="submit"] {
 }
 
 form #signup input[type="submit"]:hover {background:#734026;cursor:pointer;text-shadow:0 1px 1px #330011;}
-
 object {}
 
-footer {margin: 15px 0 0 3px;text-shadow: 1px 1px 1px #dcccc3;font-size: 1.2em;line-height: 1.5em;}
-address {display:block; padding-top: 7px;}
-
+footer {margin: 12px 0 0 3px;text-shadow: 1px 1px 1px #dcccc3;font-size: 1.2em;line-height: 1.7em;}
+address {display:block; padding-top: 3px;}
 a#appbadge {float: right;position: relative; right: -3px;}
-
 
 
 /* nivo slider */
 
 .nivoSlider {
     position:relative;
-    width:972px; /* Change this to your images width */
-    height:650px; /* Change this to your images height */
-    background:url(/images/loading.gif) no-repeat 50% 50%;
+    width:962px; /* Change this to your images width */
+    height:462px; /* Change this to your images height */
+    background: #fff url(/images/loading.gif) no-repeat 50% 50%;
+
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -border-radius:5px;
+    -webkit-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.2);
+    -moz-box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.3);
+    -box-shadow: inset 0 0 2px 1px rgba(0,0,0, 0.3);
+     border: 5px solid #8d5d32;
 }
 .nivoSlider img {
     position:absolute;
@@ -106,4 +102,10 @@ a#appbadge {float: right;position: relative; right: -3px;}
 .nivoSlider a {
     border:0;
     display:block;
+}
+
+.nivoSlider .nivo-caption p {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px;
 }
