@@ -70,11 +70,16 @@ form #signup input[type="submit"] {
 }
 
 form #signup input[type="submit"]:hover {background:#734026;cursor:pointer;text-shadow:0 1px 1px #330011;}
-object {}
 
 footer {margin: 12px 0 0 3px;text-shadow: 1px 1px 1px #dcccc3;font-size: 1.2em;line-height: 1.7em;}
-address {display:block; padding-top: 3px;}
-a#appbadge {float: right;position: relative; right: -3px;}
+footer h5 {color: #6d3d22; margin-bottom: 5px;line-height: 1.7em;font-size: 16px;}
+.social-box{
+  /* background: #d0c5ba; */
+  padding: 3px 10px 0;
+  -webkit-border-radius: 7px;
+}
+address {}
+a#appbadge {}
 
 
 /* nivo slider */
@@ -109,3 +114,8 @@ a#appbadge {float: right;position: relative; right: -3px;}
   font-weight: bold;
   padding: 15px;
 }
+
+.nivoSlider .nivo-caption p a {
+  color: #fff;
+}
+
