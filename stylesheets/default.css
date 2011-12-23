@@ -1,4 +1,4 @@
-html{color:#333;background:#c6b9ac;}
+html{color:#333;background:#d6c9bc;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
 table{border-collapse:collapse;border-spacing:0}
 fieldset,img{border:0}
@@ -32,30 +32,29 @@ em{font-style:italic}
 strong{font-weight:bold}
 small{font-size:12px;line-height:inherit}
 
+#main {margin-top:3em;}
 
-#promo-header img {float: left;}
-#promo-header #promo-info {margin-left: 80px;margin-bottom:1em;}
+#promo #hv-title {margin-top:1.75em;}
+#promo #hv-title .appicon {-webkit-border-radius:5px;border-radius:5px;-moz-border-radius:5px;float:left;box-shadow:1px 1px 2px 0 rgba(0,0,0,0.2);}
+#promo #hv-title h1 {font-size: 2.5em;color:#110;font-weight: bold;margin-left:88px;line-height:1.4em;text-shadow:1px 1px 1px #edc;}
+#promo #hv-title h5 {margin-left: 88px;text-shadow:1px 1px 1px #edc;}
 
-a.button.download {padding: 5px 10px;background:#875d37;color:#fff;border: 2px solid #4D2109;-webkit-border-radius:5px;-moz-border-radius:5px;-border-radius:5px;margin:1.5em .25em;line-height:2em;font-size:1.3em;}
-a.button.download:hover {text-decoration:none;background:#673d17;}
 
-#incharge {margin:20px 5px 5px;color:#332;text-shadow:1px 1px 1px #d6c9bc;font:bold 2.15em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;}
+#promo #hv-info {margin-top:3em;}
+#promo h2 {font-size:1.9em;clear:both;font-weight:bold;margin:1em .5em 1em 0;line-height:1.2em;text-shadow:1px 1px 1px #edc;}
 
-form #signup input[type="submit"]:hover {background:#734026;cursor:pointer;text-shadow:0 1px 1px #330011;}
-footer {margin: 12px 0 0 3px;text-shadow: 1px 1px 1px #dcccc3;font-size: 1.2em;line-height: 1.7em;}
+#promo a.button.download img {opacity:.8;}
+#promo a.button.download:hover img {opacity:1.0;}
+#video-container {text-align: right;}
+#video-container iframe {box-shadow:0px 0px 5px 1px rgba(0,0,0,0.2);text-align:right;-webkit-border-radius:5px;border:1px solid #c4b9ad;padding:5px;background:#fff;}
+
+#screenshots {margin: 2em 0 0;display:block;text-align:center;}
+#screenshots img {padding:5px;background:#fed;border:1px solid #ba9;-webkit-border-radius:5px;border-radius:5px;-moz-border-radius:5px;}
+
+
+footer {margin: 1.5em 0 1em;padding:1em .5em;text-shadow: 1px 1px 1px #dcccc3;font-size: 1.2em;line-height: 1.7em;border-top:1px solid #b4a99d;}
 footer h5 {color: #6d3d22; margin-bottom: 5px;line-height: 1.7em;font-size: 16px;}
 .social-box{/*background:#d0c5ba;*/padding: 3px 10px 0;-webkit-border-radius:7px;}
 address {}
-a#appbadge {}
-
-/* nivo slider */
-.nivoSlider {
-    position:relative;
-    width:962px; /* Change this to your images width */
-    height:462px; /* Change this to your images height */
-    background:#fff url(/images/loading.gif) no-repeat 50% 50%;-webkit-border-radius:5px;-moz-border-radius:5px;-border-radius:5px;-webkit-box-shadow:inset 0 0 2px 1px rgba(0,0,0, 0.2);-moz-box-shadow:inset 0 0 2px 1px rgba(0,0,0, 0.3);-box-shadow:inset 0 0 2px 1px rgba(0,0,0, 0.3);border:5px solid #8d5d32;}
-.nivoSlider img {position:absolute;top:0px;left:0px;display:none;}
-.nivoSlider a {border:0;display:block;}
-.nivoSlider .nivo-caption p {font-size:24px;font-weight:bold;padding:15px;}
-.nivoSlider .nivo-caption p a {color:#fff;}
-
+footer a#appbadge img {opacity:.8;filter:alpha(opacity=80);}
+footer a#appbadge:hover img {opacity:1.0;filter:alpha(opacity=100);}
