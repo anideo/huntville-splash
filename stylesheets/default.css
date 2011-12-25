@@ -9,7 +9,7 @@ caption,th{text-align:left}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
 
 body {margin:auto;overflow:none;}
-#main {width:972px;margin:0 auto;}
+#main {width:860px;margin:0 auto;}
 
 q:before,q:after{content:""}
 abbr,acronym{border:0;font-variant:normal}
@@ -38,9 +38,8 @@ small{font-size:12px;line-height:inherit}
 #promo #hv-title .appicon {-webkit-border-radius:5px;border-radius:5px;-moz-border-radius:5px;float:left;box-shadow:1px 1px 2px 0 rgba(0,0,0,0.2);-webkit-box-shadow:1px 1px 2px 0 rgba(0,0,0,0.2);-moz-box-shadow:1px 1px 2px 0 rgba(0,0,0,0.2);}
 #promo #hv-title h1 {font-size: 2.5em;color:#110;font-weight: bold;margin-left:88px;line-height:1.4em;text-shadow:1px 1px 1px #edc;}
 #promo #hv-title h5 {margin-left: 88px;text-shadow:1px 1px 1px #edc;}
-
-#promo #hv-info {margin-top:3em;}
-#promo h2 {font-size:1.9em;clear:both;font-weight:bold;margin:1em .5em 1em 0;line-height:1.2em;text-shadow:1px 1px 1px #edc;}
+#badge {text-align:right;padding-top:1.6em;}
+h2#incharge {font-size:1.9em;clear:both;font-weight:bold;margin:1em .5em 1em 0;line-height:1.2em;text-shadow:1px 1px 1px #edc;text-align:center;}
 
 #promo a.button.download img {opacity:.8;filter:alpha(opacity(80));}
 #video-container {text-align:right;}
@@ -48,7 +47,6 @@ small{font-size:12px;line-height:inherit}
 
 #screenshots {margin: 2em 0 0;display:block;text-align:center;}
 #screenshots img {padding:5px;background:#fed;border:1px solid #ba9;-webkit-border-radius:5px;border-radius:5px;-moz-border-radius:5px;}
-
 
 footer {margin: 1.5em 0 1em;padding:1em .5em;text-shadow: 1px 1px 1px #dcccc3;font-size: 1.2em;line-height: 1.7em;border-top:1px solid #b4a99d;}
 footer h5 {color: #6d3d22; margin-bottom: 5px;line-height: 1.7em;font-size: 16px;}
