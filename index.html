@@ -38,7 +38,7 @@
 
   <!-- modernizr.js in the head everything else at the end -->
   <script src="../javascripts/libs/modernizr-1.7.min.js"></script>
-
+  <script type='text/javascript' src='http://www.youtube.com/player_api'></script>
 </head>
 
 <body>
@@ -63,7 +63,6 @@
         <img src="images/village.png" width="845">
       </div>
       <div id="video" style="display:none;">
-        <iframe id="huntville-video" width="848" height="503" src="http://www.youtube.com/v/2vUFejT-6SQ?enablejsapi=1&version=3" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
 
@@ -104,21 +103,30 @@
     <script src='/javascripts/libs/selectivizr-1.0.1.js'></script>
     <script src='/javascripts/libs/respond.min.js'></script>
   <![endif]-->
-
   <script type="text/javascript">
+    var player = null;
+
+    function onYouTubePlayerAPIReady() {
+      player = new YT.Player('video', {
+                height: '503',
+                width: '848',
+                videoId: '2vUFejT-6SQ',
+                events: {
+                  'onReady': onYouTubePlayerReady,
+                }
+              });
+    }
+
     function onYouTubePlayerReady(playerId) {
       $('#play').show();
     }
-  </script>
 
-  <script type="text/javascript">
-    $('#placeholder').click(function(){
+    $('#play').click(function(){
       $('#placeholder').hide();
       $('#video').show();
 
-      if(ytplayer) {
-        console.log("Playing ytplayer");
-        ytplayer.playVideo();
+      if(player !== null) {
+        player.playVideo();
       }
     });
   </script>
