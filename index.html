@@ -58,10 +58,16 @@
     </div>
 
     <div id="video-container">
-      <iframe width="853" height="505" src="http://www.youtube.com/embed/2vUFejT-6SQ?rel=0&autohide=0&controls=1&modestbranding=0&showinfo=0&theme=light" frameborder="0" allowfullscreen></iframe>
+      <div id="placeholder">
+        <div id="play"><img src="images/play.png"></div>
+        <img src="images/village.png" width="845">
+      </div>
+      <div id="video" style="display:none;">
+        <iframe id="huntville-video" width="848" height="503" src="http://www.youtube.com/v/2vUFejT-6SQ?rel=0&autohide=0&controls=1&modestbranding=0&showinfo=0&theme=light&enablejsapi=1&version=3" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
 
-    <h2 id="incharge">Get it FREE on the App Store for a limited time!</h2>
+    <h2 id="incharge"><a href="http://bit.ly/huntville" title="Get huntville for free now!" />Get it FREE</a> on the App Store for a limited time!</h2>
 
     <footer role="contentinfo">
       <div class="yui3-g" id="signup">
@@ -98,6 +104,21 @@
     <script src='/javascripts/libs/selectivizr-1.0.1.js'></script>
     <script src='/javascripts/libs/respond.min.js'></script>
   <![endif]-->
+
+  <script type="text/javascript">
+    function onYouTubePlayerReady(playerId) {
+      ytplayer = document.getElementById("huntville-video");
+    }
+
+    $('#placeholder').click(function(){
+      $('#placeholder').hide();
+      $('#video').show();
+
+      if(ytplayer) {09
+        ytplayer.playVideo();
+      }
+    });
+  </script>
 
   <script type="text/javascript">
 
