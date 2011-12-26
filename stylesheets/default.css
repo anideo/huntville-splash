@@ -50,7 +50,7 @@ h2#incharge {font-size:1.9em;clear:both;font-weight:bold;margin:1em .5em 1em 0;l
 #screenshots {margin: 2em 0 0;display:block;text-align:center;}
 #screenshots img {padding:5px;background:#fed;border:1px solid #ba9;-webkit-border-radius:5px;border-radius:5px;-moz-border-radius:5px;}
 
-footer {margin: 1.5em 0 .5em;padding:1em .5em 0;text-shadow: 1px 1px 1px #dcccc3;font-size: 1.2em;line-height: 1.7em;border-top:1px solid #b4a99d;}
+footer {margin: 1.5em 0 .5em;padding:1em 0 0;text-shadow: 1px 1px 1px #dcccc3;font-size: 1.2em;line-height: 1.7em;border-top:1px solid #b4a99d;}
 footer h5 {color: #6d3d22; margin-bottom: 5px;line-height: 1.7em;font-size: 16px;}
 .social-box{/*background:#d0c5ba;*/padding: 3px 10px 0;-webkit-border-radius:7px;}
 address {}
